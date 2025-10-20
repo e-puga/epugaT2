@@ -56,6 +56,10 @@ public partial class FrmCalificacion : ContentPage
                             : notaFinal >= 5 ? "COMPLEMENTARIO"
                             : "REPROBADO";
 
+            lblCalculoParcial1.Text = Convert.ToString(notaParcial1);
+            lblCalculoParcial2.Text = Convert.ToString(notaParcial2);
+            lblCalculoNotaFinal.Text = Convert.ToString(notaFinal);
+
             // Mostrar resultado con dos decimales
             await DisplayAlert("CÁLCULO DE NOTAS",
                 $"Nombre: {nombre}\n" +

@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("epugaT2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4891270586790ca4e202fe3d6e46a724a1d50370")]
 [assembly: System.Reflection.AssemblyProductAttribute("epugaT2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("epugaT2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -513,3 +513,4 @@ C:\Users\Eduardo\Documents\Proyectos .net\epugaT2\obj\Debug\net9.0-windows10.0.1
 C:\Users\Eduardo\Documents\Proyectos .net\epugaT2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\Eduardo\Documents\Proyectos .net\epugaT2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Eduardo\Documents\Proyectos .net\epugaT2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Eduardo\Documents\Proyectos .net\epugaT2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\epugaT2.sourcelink.json
