@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaT2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16DFFED2-936D-4082-B630-6AAC3BE80366}|epugaT2.csproj|c:\\users\\eduardo\\documents\\proyectos .net\\epugat2\\views\\frmcalificacion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DFFED2-936D-4082-B630-6AAC3BE80366}|epugaT2.csproj|solutionrelative:views\\frmcalificacion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DFFED2-936D-4082-B630-6AAC3BE80366}|epugaT2.csproj|c:\\users\\eduardo\\documents\\proyectos .net\\epugat2\\views\\frmcalificacion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16DFFED2-936D-4082-B630-6AAC3BE80366}|epugaT2.csproj|solutionrelative:views\\frmcalificacion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmCalificacion.xaml",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaT2\\Views\\FrmCalificacion.xaml",
+              "RelativeDocumentMoniker": "Views\\FrmCalificacion.xaml",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaT2\\Views\\FrmCalificacion.xaml",
+              "RelativeToolTip": "Views\\FrmCalificacion.xaml",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAAMAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-20T06:12:50.514Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmCalificacion.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaT2\\Views\\FrmCalificacion.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\FrmCalificacion.xaml.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaT2\\Views\\FrmCalificacion.xaml.cs",
+              "RelativeToolTip": "Views\\FrmCalificacion.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAsAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T07:33:13.244Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

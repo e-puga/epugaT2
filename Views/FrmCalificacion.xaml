@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="epugaT2.Views.FrmCalificacion"
+             Title="FrmCalificacion">
+    
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <Label 
+            Text="Tarea Semana 3: Formulario Calificaciones"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <!--PARCIAL 1-->
+        <Grid RowSpacing="20">
+            
+            <!--Fila-->
+            <Grid.RowDefinitions>
+                <!--Parcial 1-->
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <!--Columns-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <Label 
+                Text="PARCIAL 1"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" 
+                Grid.Row="0"
+                Grid.Column="0"/>
+
+            <Label
+                Text="Nombre"
+                FontSize="16"
+                Grid.Row="1"
+                Grid.Column="0"/>
+
+            <Picker x:Name="pckNombres"
+                    Grid.Row="1"
+                    Grid.Column="1">
+                <Picker.Items>
+                    <x:String>EDUARDO PUGA</x:String>
+                    <x:String>JUANITO PEREZ</x:String>
+                    <x:String>PEPE LUCHO</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label
+                Text="Nota Seguimiento"
+                FontSize="16"
+                Grid.Row="2"
+                Grid.Column="0"/>
+
+            <Entry
+                x:Name="txtNotaSeguimiento1"
+                Placeholder="Ingrese nota seguimiento"
+                Keyboard="Numeric"
+                Grid.Row="2"
+                Grid.Column="1"/>
+
+            <Label
+                Text="Nota Examen"
+                FontSize="16"
+                Grid.Row="3"
+                Grid.Column="0"/>
+
+            <Entry
+                x:Name="txtExamen1"
+                Placeholder="Ingresa nota examen"
+                Keyboard="Numeric"
+                Grid.Row="3"
+                Grid.Column="1"/>
+
+            <Label
+                Text="Nota Parcial 1"
+                FontSize="16"
+                Grid.Row="4"
+                Grid.Column="0"/>
+
+            <Label
+                Text="txtCalculoNotaParcial1"
+                FontSize="16"
+                Grid.Row="4"
+                Grid.Column="1"/>
+        </Grid>
+
+        
+        <!--PARCIAL 2-->
+        <Grid RowSpacing="20">
+            
+            <!--Fila-->
+            <Grid.RowDefinitions>
+                <!--Parcial 1-->
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <!--Columns-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+
+            <Label 
+                Text="PARCIAL 2"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" 
+                Grid.Row="0"
+                Grid.Column="0"/>
+
+            <Label
+                Text="Nota Seguimiento"
+                FontSize="16"
+                Grid.Row="1"
+                Grid.Column="0"/>
+
+            <Entry
+                x:Name="txtNotaSeguimiento2"
+                Placeholder="Ingrese nota seguimiento"
+                Keyboard="Numeric"
+                Grid.Row="1"
+                Grid.Column="1"/>
+
+            <Label
+                Text="Nota Examen"
+                FontSize="16"
+                Grid.Row="2"
+                Grid.Column="0"/>
+
+            <Entry
+                x:Name="txtExamen2"
+                Placeholder="Ingresa nota examen"
+                Keyboard="Numeric"
+                Grid.Row="2"
+                Grid.Column="1"/>
+
+            <Label
+                Text="Nota Parcial 2"
+                FontSize="16"
+                Grid.Row="3"
+                Grid.Column="0"/>
+
+            <Label
+                Text="txtCalculoNotaParcial2"
+                FontSize="16"
+                Grid.Row="3"
+                Grid.Column="1"/>
+
+            <!--Calendario-->
+            <Label 
+                Text="Fecha"
+                FontSize="16"
+                Grid.Row="4"
+                Grid.Column="0"/>
+
+            <DatePicker
+                x:Name="dtaFecha"
+                Format="dd/MM/yyyy"
+                Grid.Row="4"
+                Grid.Column="1"/>
+
+            <Label
+                Text="NotaFinal"
+                FontSize="16"
+                Grid.Row="5"
+                Grid.Column="0"/>
+
+            <Label
+                Text="txtCalculoNotaFinal"
+                FontSize="16"
+                Grid.Row="5"
+                Grid.Column="1"/>
+
+        </Grid>
+
+        <Button x:Name="btnCalcularNotas"
+            Text="Calcular Notas"
+            Clicked="btnCalcularNotas_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
